@@ -1,6 +1,6 @@
 # Gender_Prediction
 
-Il progetto ha l'obiettivo di prevedere il sesso di una persona in base al modo in cui scrive un testo.
+Il progetto ha l'obiettivo di prevedere il sesso di una persona in base al contenuto di un testo scritto da lei stessa.
 
 Le reti neurali sono state addestrate con l'unione di cinque differenti dataset:
 1. Testi scritti su diari personali
