@@ -1,13 +1,26 @@
-# Gender_Prediction
+# **Text Classification Model for Gender Prediction**
 
-The project aims to predict a person's gender based on the content of a text written by that person.
+This repository contains code for a text classification model for Italian texts using deep learning techniques. The model is designed to classify texts based on gender (male or female). The model was trained on a dataset containing Italian texts from various sources such as social media posts, blogs, and news articles.
 
-Neural networks were trained by merging five different datasets:
-1. Texts written in personal diaries
-2. Texts related to newspaper articles
-3. Twitter comments
-4. Youtube comments
-5. Texts written by children
+## **Requirements**
 
-The embedding used is either created directly in code through Keras or loaded from already trained templates such as Word2Vec.
+- Python 3.x
+- NumPy
+- TensorFlow 2.x
+- Keras
+- Pandas
+- Scikit-learn
+- Gensim
+- NLTK
+- Matplotlib
 
+
+## **Model Architecture**
+
+The text classification model uses a combination of word embeddings and convolutional neural networks (CNNs). The model was trained on a Word2Vec embedding model which was pre-trained on a large Italian corpus. The CNN layers were used to extract features from the embeddings, which were then passed through a dense layer to produce the final output.
+
+## **Running the Code**
+
+Run the **`ProgettoGenderPrediction.py`** file. The code will automatically load the dataset, preprocess the texts, and train the model. After training, the model will be evaluated on a test set, and the classification report and accuracy score will be printed to the console.
+
+Note that the model may take a while to train depending on the size of the dataset and the complexity of the model architecture.
